@@ -66,10 +66,10 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
     msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"
 
 ### Enumération de ports :
-    msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"
+    msgpt run -o "enum" -p "énumère les ports ouverts sur l’hôte 10.0.0.5"
 
 ### Profiling système :
-    msgpt run "footprint" "récupère les informations système de la machine cible"
+    msgpt run -o "footprint" -p "récupère les informations système de la machine cible"
 
 ---
 
@@ -78,6 +78,7 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
 -  Ce projet est **open source** : tu peux l’utiliser, le modifier et le redistribuer librement.
 - 💻 **Compatible Linux et macOS** : MSGPT-Python-CLI fonctionne nativement sur les systèmes Unix-like.  
   >  Le support pour Windows n’est pas concerné.
+
 
 
 
