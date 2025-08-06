@@ -37,7 +37,7 @@ Rechargez votre shell :
 ## Pour BASH 
     source ~/.bashrc
 
-##  Mode d'utilisation
+#  Mode d'utilisation
 
 ## Créer un compte 
     msgpt register
@@ -62,7 +62,7 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
 
 ### Exemples d'utilisation
 
-## Scanner un réseau :
+### Scanner un réseau :
     msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"
 
 ## Enumération de ports :
@@ -70,6 +70,7 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
 
 ## Profiling système :
     msgpt run "footprint" "récupère les informations système de la machine cible"
+
 
 
 
