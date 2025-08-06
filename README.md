@@ -31,14 +31,11 @@ Commande: pip install -r requirements.txt (nom du fichier) pour installer automa
 
 Rechargez votre shell :
 
-Pour ZSH 
-
-Pour BASH :
-
-bash
-Copier
-Modifier
-source ~/.bashrc
+## Pour ZSH 
+    source ~/.zshrc
+    
+## Pour BASH 
+    source ~/.bashrc
 
 ##  Mode d'utilisation
 
@@ -51,7 +48,7 @@ source ~/.bashrc
 ## Se déconnecter :
     msgpt logout
 
-# Envoyer un prompt :
+ Envoyer un prompt :
 
 **msgpt run -o "option" -p "prompt"**
 
@@ -67,15 +64,16 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
 
 1. Scanner un réseau :
 
-**msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"**
+    **msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"**
 
 2. Enumération de ports :
 
-**msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"**
+    **msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"**
 
 3. Profiling système :
 
-**msgpt run "footprint" "récupère les informations système de la machine cible"**
+    **msgpt run "footprint" "récupère les informations système de la machine cible"**
+
 
 
 
