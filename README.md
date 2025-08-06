@@ -71,7 +71,13 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
 ### Profiling système :
     msgpt run "footprint" "récupère les informations système de la machine cible"
 
+---
 
+##  Portabilité & Open Source
+
+-  Ce projet est **open source** : tu peux l’utiliser, le modifier et le redistribuer librement.
+- 💻 **Compatible Linux et macOS** : MSGPT-Python-CLI fonctionne nativement sur les systèmes Unix-like.  
+  >  Le support pour Windows n’est pas concerné.
 
 
 
