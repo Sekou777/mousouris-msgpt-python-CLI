@@ -15,10 +15,11 @@ Chaque utilisateur dispose de **5 prompts maximum par jour**.
 ---
 
 ##  Installation
+- Clonez ce dépôt.
 
-le fichier contient les details sur les dependances a installées et la version minimale a utilisé:
--  request>=2.32.4
--  rich>=14.0.0
+- Le fichier requirements.txt contient les détails sur les dépendances à installer et la version minimale à utiliser :
+ * request>=2.32.4
+ * rich>=14.0.0
   
 Commande: pip install -r requirements.txt (nom du fichier) pour installer automatiquement les dependances
 
@@ -69,6 +70,7 @@ msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"
 3. Profiling système :
 
 msgpt run "footprint" "récupère les informations système de la machine cible"
+
 
 
 
