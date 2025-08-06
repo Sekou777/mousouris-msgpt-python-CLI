@@ -62,17 +62,15 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
 
 ### Exemples d'utilisation
 
-1. Scanner un réseau :
+ 1. Scanner un réseau :
+    msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"
 
-    **msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"**
+3. Enumération de ports :
+    msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"
 
-2. Enumération de ports :
+4. Profiling système :
+    msgpt run "footprint" "récupère les informations système de la machine cible"
 
-    **msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"**
-
-3. Profiling système :
-
-    **msgpt run "footprint" "récupère les informations système de la machine cible"**
 
 
 
