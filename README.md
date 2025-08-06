@@ -31,24 +31,25 @@ Commande: pip install -r requirements.txt (nom du fichier) pour installer automa
 
 Rechargez votre shell :
 
-Pour ZSH :
-
-**source ~/.zshrc**
+Pour ZSH 
 
 Pour BASH :
 
-**source ~/.bashrc**
+bash
+Copier
+Modifier
+source ~/.bashrc
 
 ##  Mode d'utilisation
 
-# Créer un compte :
-  msgpt register
+## Créer un compte 
+    msgpt register
 
-# Se connecter :
-  msgpt login
+## Se connecter 
+    msgpt login
 
-# Se déconnecter :
-  msgpt logout
+## Se déconnecter :
+    msgpt logout
 
 # Envoyer un prompt :
 
@@ -75,6 +76,7 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
 3. Profiling système :
 
 **msgpt run "footprint" "récupère les informations système de la machine cible"**
+
 
 
 
