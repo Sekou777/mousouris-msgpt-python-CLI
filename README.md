@@ -31,28 +31,28 @@ Commande: pip install -r requirements.txt (nom du fichier) pour installer automa
 
 Rechargez votre shell :
 
-## Pour ZSH 
+### Pour ZSH 
     source ~/.zshrc
     
-## Pour BASH 
+### Pour BASH 
     source ~/.bashrc
 
-#  Mode d'utilisation
+##  Mode d'utilisation
 
-## Créer un compte 
+### Créer un compte 
     msgpt register
 
-## Se connecter 
+### Se connecter 
     msgpt login
 
-## Se déconnecter :
+### Se déconnecter :
     msgpt logout
 
  Envoyer un prompt :
 
 **msgpt run -o "option" -p "prompt"**
 
-### Options possibles:
+## Options possibles:
 
 scan : pour analyser un réseau
 
@@ -60,16 +60,17 @@ enum : pour faire de l’énumération
 
 footprint : pour  recueillir des données précieuses sur l'infrastructure, les technologies utilisées.
 
-### Exemples d'utilisation
+## Exemples d'utilisation
 
 ### Scanner un réseau :
     msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"
 
-## Enumération de ports :
+### Enumération de ports :
     msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"
 
-## Profiling système :
+### Profiling système :
     msgpt run "footprint" "récupère les informations système de la machine cible"
+
 
 
 
