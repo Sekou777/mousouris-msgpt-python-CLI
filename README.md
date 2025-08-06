@@ -31,9 +31,11 @@ Commande: pip install -r requirements.txt (nom du fichier) pour installer automa
 /media/sf_formation_MOUSSOURIS/Moussourisgpt-backend/mousourisgpt-PythonCli: répresente emplacement de mon repertoire
 
 Rechargez votre shell :
+
 Pour ZSH :
 
 **source ~/.zshrc**
+
 Pour BASH :
 
 **source ~/.bashrc**
@@ -43,17 +45,21 @@ Pour BASH :
 Créer un compte :
 
 **msgpt register**
+
  Se connecter :
 
 **msgpt login**
+
  Se déconnecter :
 
 **msgpt logout**
+
  Envoyer un prompt :
 
 **msgpt run -o "option" -p "prompt"**
 
 ### Options possibles:
+
 scan : pour analyser un réseau
 
 enum : pour faire de l’énumération
@@ -61,15 +67,19 @@ enum : pour faire de l’énumération
 footprint : pour  recueillir des données précieuses sur l'infrastructure, les technologies utilisées.
 
 ### Exemples d'utilisation
+
 1. Scanner un réseau :
 
-msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"
+**msgpt run -o "scan" -p "scanne le réseau 192.168.1.0"**
+
 2. Enumération de ports :
 
-msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"
+**msgpt run "enum" "énumère les ports ouverts sur l’hôte 10.0.0.5"**
+
 3. Profiling système :
 
-msgpt run "footprint" "récupère les informations système de la machine cible"
+**msgpt run "footprint" "récupère les informations système de la machine cible"**
+
 
 
 
