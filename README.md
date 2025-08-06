@@ -26,8 +26,7 @@ Commande: pip install -r requirements.txt (nom du fichier) pour installer automa
 ---
 
 ##  Configuration du PATH
-
-**export PATH="/media/sf_formation_MOUSSOURIS/Moussourisgpt-backend/mousourisgpt-PythonCli:$PATH"**
+  export PATH="/media/sf_formation_MOUSSOURIS/Moussourisgpt-backend/mousourisgpt-PythonCli:$PATH" 
 /media/sf_formation_MOUSSOURIS/Moussourisgpt-backend/mousourisgpt-PythonCli: répresente emplacement de mon repertoire
 
 Rechargez votre shell :
@@ -42,19 +41,16 @@ Pour BASH :
 
 ##  Mode d'utilisation
 
-Créer un compte :
+# Créer un compte :
+  msgpt register
 
-**msgpt register**
+# Se connecter :
+  msgpt login
 
- Se connecter :
+# Se déconnecter :
+  msgpt logout
 
-**msgpt login**
-
- Se déconnecter :
-
-**msgpt logout**
-
- Envoyer un prompt :
+# Envoyer un prompt :
 
 **msgpt run -o "option" -p "prompt"**
 
@@ -79,6 +75,7 @@ footprint : pour  recueillir des données précieuses sur l'infrastructure, les 
 3. Profiling système :
 
 **msgpt run "footprint" "récupère les informations système de la machine cible"**
+
 
 
 
